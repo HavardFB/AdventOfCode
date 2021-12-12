@@ -43,9 +43,7 @@ int main()
                 posY = posY + (posChange * aim);
             }
             else if (strcmp(wordInput, "down") == 0)
-            {
                 aim += posChange;
-            }
             else
                 aim -= posChange;
         }
